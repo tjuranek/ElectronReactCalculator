@@ -16,4 +16,5 @@ Run Create React App
 	- stretch goal: history of your calculations, electron, unit tests next week?
 	
 
+Figma File: https://www.figma.com/file/OaFTfJH53PdIhGjDMsqtd7/ReactElectronCalc?node-id=0%3A1
 
