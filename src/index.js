@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import { ThemeProvider } from 'emotion-theming';
+import { theme } from './theme';
+import { Calculator } from './containers/calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <Calculator />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

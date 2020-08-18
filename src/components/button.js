@@ -3,7 +3,7 @@ import { jsx } from '@emotion/core'
 import { useTheme } from 'emotion-theming';
 
 
-const Button = (props) => {
+export const Button = (props) => {
     const { text } = props;
 
     const theme = useTheme();
@@ -18,5 +18,3 @@ const Button = (props) => {
     <button css={styles.button}>some text</button>
   )   
 };
-
-export default Button;
