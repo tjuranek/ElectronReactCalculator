@@ -1,3 +1,15 @@
+import React from 'react';
+
+const Calculator = () => {
+    return (
+        <div>
+            <div>test</div>
+        </div>
+    )
+};
+
+export default Calculator;
+/* 
 export const createStyles = (theme) => {
     return {
         container: {
@@ -18,4 +30,4 @@ export const createStyles = (theme) => {
 			gridArea: 'content'
 		}
     }
-}; 
+};  */
