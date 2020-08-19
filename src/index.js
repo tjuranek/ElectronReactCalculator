@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize.css';
 import { ThemeProvider } from 'emotion-theming';
 import { theme } from './theme';
 import { Calculator } from './containers/calculator';

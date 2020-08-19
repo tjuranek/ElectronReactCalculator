@@ -4,17 +4,19 @@ import { useTheme } from 'emotion-theming';
 
 
 export const Button = (props) => {
-    const { text } = props;
+    const { backgroundColor, onClick, text, textColor } = props;
 
     const theme = useTheme();
     const styles = {
       button: {
-        backgroundColor: theme.colors.secondary,
-        padding: '1rem'
+        backgroundColor: backgroundColor,
+        color: textColor,
+        width: '100%',
+        height: '100%'
       }
     };
 
   return (
-    <button css={styles.button}>some text</button>
+    <button css={styles.button} onClick={onClick} value={text}>{text}</button>
   )   
 };

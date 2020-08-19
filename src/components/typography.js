@@ -8,7 +8,6 @@ export const Typography = (props) => {
     const theme = useTheme();
     const styles = {
         typography: {
-            backgroundColor: backgroundColor,
             color: color,
             fontSize: '3rem',
             textAlign: 'right',
