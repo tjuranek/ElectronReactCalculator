@@ -1,5 +1,9 @@
-import { evaluate } from 'mathjs';
+import { evaluate } from "mathjs";
 
-export const solve = (expression) => {
+export const solve = expression => {
+  try {
     return evaluate(expression);
+  } catch (e) {
+    return null;
+  }
 };
